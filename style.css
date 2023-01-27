@@ -7,102 +7,173 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
-    line-height:1;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 nav ul {
-    list-style:none;
+  list-style: none;
 }
 
-blockquote, q {
-    quotes:none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-    text-decoration: none;
-    color: #111;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: #111;
 }
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
 
 del {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
 table {
-    border-collapse:collapse;
-    border-spacing:0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-    display:block;
-    height:1px;
-    border:0;  
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
-input, select {
-    vertical-align:middle;
+input,
+select {
+  vertical-align: middle;
 }
 /* 以上リセットCSS */
 
@@ -110,133 +181,133 @@ input, select {
 * 共通
 ****************************/
 .common__title-inner {
-    text-align: center;
-    padding: 50px 0;
+  text-align: center;
+  padding: 50px 0;
 }
 .common__title {
-    font-size: 30px;
-    margin-bottom: 15px;
+  font-size: 30px;
+  margin-bottom: 15px;
 }
 .common__title-des {
-    font-size: 14px;
-    color: #4EB7D2;
+  font-size: 14px;
+  color: #4eb7d2;
 }
 /****************************
 * ポスト
 ****************************/
 .post__inner {
-    max-width: 1400px;
-    margin: 0 auto;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .post-content {
-    display: flex;
+  display: flex;
 }
 .post-content__inner-l {
-    text-align: center;
-    width: 50%;
-    padding: 0 50px;
+  text-align: center;
+  width: 50%;
+  padding: 0 50px;
 }
 .post-content__inner-r {
-    width: 50%;
-    padding: 0 50px;
+  width: 50%;
+  padding: 0 50px;
 }
 .post-content__inner-l .post-content__name {
-    margin: 40px;
+  margin: 40px;
 }
 .post-content__name-wrapper {
-    margin-bottom: 1.25em;
+  margin-bottom: 1.25em;
 }
 .post-content__name-wrapper::before {
-    content: '';
-    background: url("./img/twitter_logo.svg");
-    background-size: cover;
-    display: inline-block;
-    width: 37px;
-    height: 30px;
+  content: "";
+  background: url("./img/twitter_logo.svg");
+  background-size: cover;
+  display: inline-block;
+  width: 37px;
+  height: 30px;
 }
 .post-content__name-inner {
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
 }
 .post-content__user {
-    display: flex;
+  display: flex;
 }
 .post-content__user {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .post-content__name {
-    font-size: clamp(1.5rem, 1rem + 1.04vw, 1.938rem);
-    margin-bottom: 0.42em;
+  font-size: clamp(1.5rem, 1rem + 1.04vw, 1.938rem);
+  margin-bottom: 0.42em;
 }
 .post-content__time {
-    color: #65727c;
+  color: #65727c;
 }
 .post-content__inner-l .post-content__name {
-    font-size: clamp(1.938rem, 1.438rem + 1.04vw, 2.375rem);
-    margin: 1.05em;
-
+  font-size: clamp(1.938rem, 1.438rem + 1.04vw, 2.375rem);
+  margin: 1.05em;
 }
 .post-content__des {
-    font-size: 19px;
-    line-height: 1.5;
-    color: #65727c;
+  font-size: 19px;
+  line-height: 1.5;
+  color: #65727c;
 }
 .post-member {
-    width: 131px;
-    height: 131px;
-    object-fit: cover;
-    border-radius: 50%;
-    padding: 10px 15px 0 0;
+  width: 131px;
+  height: 131px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 10px 15px 0 0;
 }
 .post-content__inner-l .post-member {
-    width: 180px;
-    height: 180px;
+  width: 180px;
+  height: 180px;
 }
-@media screen and (max-width:969px) {
-    .post-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    .post-content__inner-l, .post-content__inner-r {
-        width: 100%;
-    }
-    .post-content__inner-l {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .post-content__inner-r {
-        display: flex;
-        box-sizing: border-box;
-        padding: 0;
-        padding: 20px;
-    }
-    .post-content__user {
-        flex-direction: column;
-        align-items: center;
-        width: calc(100% / 3);
-        margin-right: 15px;
-    }
-    .post-content__user:last-of-type {
-        margin-right: 0;
-    }
-    .post-member {
-        padding: 0 0 15px 0;
-    }
+@media screen and (max-width: 969px) {
+  .post-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .post-content__inner-l,
+  .post-content__inner-r {
+    width: 100%;
+  }
+  .post-content__inner-l {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .post-content__inner-r {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0;
+    padding: 20px;
+  }
+  .post-content__user {
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+    margin-right: 15px;
+  }
+  .post-content__user:last-of-type {
+    margin-right: 0;
+  }
+  .post-member {
+    padding: 0 0 15px 0;
+  }
 }
-@media screen and (max-width:840px) {
-    .common__title {
-        line-height: 1.5;
-    }
-    .post-content__inner-r {
-        flex-direction: column;
-        padding-top: 100px;
-    }
-    .post-content__user {
-        width: 100%;
-        align-items: flex-start;
-    }
-    .post-content__des br {
-        display: none;
-    }
+@media screen and (max-width: 840px) {
+  .common__title {
+    line-height: 1.5;
+  }
+  .post-content__inner-r {
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  .post-content__user {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .post-content__des br {
+    display: none;
+  }
 }
